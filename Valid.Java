@@ -4,6 +4,10 @@ class Solution {
         if (s.length() == 0){
             return false;
         }  
+        for (char c : s.toCharArray()){
+            if (c == '(' || c == '[' || c == '{'){
+                stack.push(c);
+            }
     
     }
 }
